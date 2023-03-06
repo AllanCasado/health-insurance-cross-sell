@@ -74,3 +74,34 @@ Número de vendas:
 
 Existem empresas que o faturamento não paga o custo de operação. O termo break-even se refere ao "empate" entre custo de operação e faturamento.
 
+* Custo de produção do produto
+* Custo de aquisição de clientes (CAC)
+
+## Aumentar o número de compras por cliente
+
+* Up-Sell: é uma estratégia de vendas que incentiva os clientes aa adquirirem uma versão mais sofisticada ou avançada do produto que originalmente pretendiam comprar.
+
+* Cross-Sell: é uma estratégia de vendas de produtos ou serviços relacionados ou complementares com base no interesse do cliente ou na compra de um produto.
+<b> Obs: não pode vender dois produtos que dependam um do outro. Isso é proibido por lei, venda casada.</b>
+
+### A estratégia de Cross-Sell
+
+Oferece mais produtos para as pessoas que JÁ SÂO CLIENTES.
+
+Uma das primeiras questões que são levantadas ao olhar para essa estratégia é: quais clientes deveriam receber a oferta do Cross-Sell?
+
+Para isso, temos uma ferramenta que é o cálculo de probabilidade de compra.
+
+Quando faz-se uma estratégia de clientes, existem potenciais clientes.Dado esses clientes, existem as restrições do negócio, que dependem domodelo de negócios da empresa. Por exemplo, se tem uma empresa que possui o ticket mais alto e uma frequência de compra baixa, como uma empresa que faz a venda de apartamentos, pode ser preciso que seja necessários pessoas para ligar para fazer a venda, pois a oferta não pode sermuito fria, já que o valor é muito algo. Daí a restrição de negócio seria o limite de ligações que podem fazer ou o limite de custo.
+
+
+
+
+
+
+
+
+
+
+
+

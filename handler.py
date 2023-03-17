@@ -31,6 +31,8 @@ def health_insurance_predict():
         #instantiate health insurance class
         pipeline = HealthInsurance()
 
+        original_data = test_raw.copy()
+
         #data cleaning
         df1 = pipeline.data_cleaning(test_raw)
 
@@ -41,7 +43,7 @@ def health_insurance_predict():
         prediction_data = pipeline.data_selection(df2)
 
         #get precition
-        df_response = pipeline.get_prediction(model, test_raw, prediction_data)
+        df_response = pipeline.get_prediction(model, original_data, prediction_data)
 
         return df_response
 

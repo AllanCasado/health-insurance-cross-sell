@@ -53,4 +53,4 @@ class HealthInsurance:
         ypred_proba = model.predict_proba(prediction_data)
         original_data['prediction'] = ypred_proba[:, 1]
         
-        return original_data.to_json(orient='records', date_format='iso')   
+        return original_data.to_json(orient='records')   

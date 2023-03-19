@@ -151,6 +151,23 @@ XGBoost Classifier is a gradient boosting algorithm that creates a set of decisi
 
 # 7. Machine Learning Model Perfomance
 
+After training these models, we evaluated their results using basically three metrics: Precision@K, Recall@K and AUC Score. These @K metrics are useful when we are evaluating a model that returns a ranked list of results, which is our case. Furthermore, AUC is the area under receiver operating characteristic curve (ROC Curve). It is a metric used to evaluate the performance of a binary classification model. The AUC measures the ability of the model to correctly distinguish between positive and negative examples across a range of classification thresholds.
+
+All the metrics were obtained using cross-validation techniques, with K-Fold=5 and k=20000. They are the following:
+
+![Evaluation metrics for each model](imgs/first_model_comparison.png)
+
+As we can see, the best one was XGBoost Classifier. For this one, we also plotted it's Cumulative Gain Curve and the Lift Curve, which are graphical evaluation metrics that are commonly used in ranking system. 
+
+A cumulative gain curve is a plot that shows the percentage of total relevant items that are retrieved as the number of retrieved items increases. The x-axis represents the number of retrieved items, while the y-axis represents the percentage of relevant items retrieved. It can be interpret as the following: "X% of the customer base, ranked by their purchase probability, includes Y% of all those interested in the new product". 
+
+![Cumulative Gain Curve](imgs/cumulative_gain_curve.png)
+
+This curve is quite useful for selling the idea to the business people. It answers the following question: "how many times is the ML model better than the baseline model for each % of the dataset?". To calculate the lift, we basically divide the cumulative propensity score according to the model by the cumulative propensity score according to the baseline (average model), for each % of the dataset and plot this result in y-axis, and the % of the dataset in the x-axis.
+
+![Lift Curve](imgs/lift_curve.png)
+
+
 # 8. Business Results
 
 # 9. Conclusions

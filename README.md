@@ -43,8 +43,8 @@ In addition, three main questions need to be answered:
 
 # 3. Data Dictionary
 
-| **Variable**         |                                                                                                             **Description** |
-|----------------------|----------------------------------------------------------------------------------------------------------------------------:|
+| **Variable**         | **Description**                                                                                                             |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Gender               | Gender of the customer                                                                                                      |
 | Age                  | Age of the customer                                                                                                         |
 | Driving_License      | 0: Customer does not have DL, 1: Customer already has DL                                                                    |
@@ -55,7 +55,7 @@ In addition, three main questions need to be answered:
 | Annual_Premium       | The amount customer needs to pay as premium in the year                                                                     |
 | Policy_Sales_Channel | Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc. |
 | Vintage              | Number of Days, Customer has been associated with the company                                                               |
-| Response             | 1: Customer is interested, 0: Customer is not interested                                                                    |
+| Response             | 1: Customer is interested, 0: Customer is not interested                                                                    |                                                                  |
 
 
 # 4. Solution Strategy

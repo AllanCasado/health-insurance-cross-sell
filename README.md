@@ -105,9 +105,11 @@ I deployed the model at Render (free cloud environment) and make it acessible th
 
 # 5. Top 3 Data Insights
 
-**Hypothesis 01:**
+**Hypothesis 05: The customers between 20 and 30 years old shows more interest than other age groups.**
+**False. The customers between 20 and 30 years old is the one that shows less interest. The group between 40 and 49 is the most interested.**
 
-**True/False.**
+<img src="/imgs/hypothesis_05.png" />
+
 
 **Hypothesis 02:**
 

@@ -36,8 +36,28 @@ In addition, three main questions need to be answered:
 
 * We assume that the business team uses Google Sheets, and therefore the delivery will be made on that platform.
 
+* The sales team has the necessary skills and capacity to make 20,000 phone calls within the campaign period.
 
-# 3. Solution Strategy
+* The customer data collected from the survey is accurate and up-to-date, and can be effectively used to segment and target potential customers.
+
+
+# 3. Data Dictionary
+
+Variable	Description
+Gender	Gender of the customer
+Age	Age of the customer
+Driving_License	0: Customer does not have DL, 1: Customer already has DL
+Region_Code	Unique code for the region of the customer
+Previously_Insured	1: Customer already has Vehicle Insurance, 0: Customer doesn't have Vehicle Insurance
+Vehicle_Age	Age of the Vehicle
+Vehicle_Damage	1: Customer got his/her vehicle damaged in the past. 0: Customer didn't get his/her vehicle damaged in the past.
+Annual_Premium	The amount customer needs to pay as premium in the year
+Policy_Sales_Channel	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+Vintage	Number of Days, Customer has been associated with the company
+Response	1: Customer is interested, 0: Customer is not interested
+
+
+# 4. Solution Strategy
 
 My strategy to solve this challenge was:
 
@@ -62,7 +82,7 @@ My strategy to solve this challenge was:
 **Step 10. Deploy Modelo to Production:**
 
 
-# 4. Top 3 Data Insights
+# 5. Top 3 Data Insights
 
 **Hypothesis 01:**
 
@@ -76,14 +96,14 @@ My strategy to solve this challenge was:
 
 **True/False.**
 
-# 5. Machine Learning Model Applied
+# 6. Machine Learning Model Applied
 
-# 6. Machine Learning Modelo Performance
+# 7. Machine Learning Modelo Performance
 
-# 7. Business Results
+# 8. Business Results
 
-# 8. Conclusions
+# 9. Conclusions
 
-# 9. Lessons Learned
+# 10. Lessons Learned
 
-# 10. Next Steps to Improve
+# 11. Next Steps to Improve

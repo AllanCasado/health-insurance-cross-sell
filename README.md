@@ -60,27 +60,47 @@ In addition, three main questions need to be answered:
 
 # 4. Solution Strategy
 
-My strategy to solve this challenge was:
+This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) method adapted for data science processes, known as CRIS-DS. The proposed general solution is as follows:
 
-**Step 01. Data Description:**
+* Study the data to find important insights for both the company and model development.
+* Train a machine learning algorithm to rank potential customers based on the training dataset.
+* Using the chosen algorithm, sort the test dataset to capture potential customers with the highest propensity to purchase the new insurance plan in a more accurate manner.
+* Create an API for using this model and deploy it.
 
-**Step 02. Feature Engineering:**
+The detailed steps to achieve these goals are described as follows:
+
+**Step 00. Data Collection:**
+Acessed Postgress database hosted on AWS using the libraries in Python. Once connected with the database, I ran SQL queries to retrieve the necessary data from the database tables.
+
+**Step 01. Data Description:** 
+This step aims to get an dataset overview, like understanding the shape, data types, data description, missing data existence, outliers and first order descriptive statistics (min, max, mean, mode, std, quantiles, skew and kurtosis). Useful to understand the data distribuition and which deeper analysis may be undertook further.
+  
+**Step 02. Feature Engineering:** 
+Firstly, I did a Hypothesis Mindmap on Coggle.it, where I modelled the agents that influences on the phenomena we are trying to predic (interest in vehicle insurance service) and based on it, I stated some hypothesis. I focused on 14 hypothesis and derived 3 features to help on analysis tasks and to give more inputs at feature selection. 
 
 **Step 03. Data Filtering:**
+It is essential to consider business constraints during the development process to ensure that the selected variables are not only statistically significant but also aligned with the organization's limitations. By doing so, we can increase the chances of successful deployment and adoption of the model in the real world. However, in this project, no business constraints were considered and no variable reducing was done.
 
 **Step 04. Exploratory Data Analysis:**
+Univariate, bivariate and multivariate analysis to achieve three goals: 1. Gain business experience; 2. Validate business hypotheses and generate insights and 3. Identify variables that are important for the model.
 
 **Step 05. Data Preparation:**
+Split data in train & validation dataset, and apply some scaling and encoding techniques. Scaling means putting the data in the same scale and enconding means converting categorical features to numerical features. Techniques applied: Robust Scaler, MinMax Scaler, One Hot Encoding, Frequency Encoding and Target Encoding.
 
 **Step 06. Feature Selection:**
+Feature selection is aligned with one of the principles of statistical learning, which is a theory that guarantees model learning. This is the principle of Occam's Razor, which states that the simplest explanation of an observed phenomenon should prevail over more complex explanations. More complex models do not generalize very well. They learn very well from the data they are trained on, but do not handle previously unseen data very well. To make models simpler, we need to remove collinear variables ) because they explain the same 'part' of the phenomenon being modeled. In this project, features were selected by Feature Importance gave by Random Forest Classifier.
 
 **Step 07. Machine Learning Modelling:**
+This step involves selecting an appropriate algorithm and training it with the pre-processed data. The aim is to find the best model that can generalize well on new, unseen data, and not overfit on the training set. After trained it is evaluated, using cross-validation technique, using some standard metrics for each type of ML problem. I trained three models: Random Forest, Logistic Regression and XGBoost.
 
 **Step 08. Hyperparameter Fine Tunning:**
+Choose the best parameters of the model selected at previous step. Random Search technique was used.
 
 **Step 09. Convert Model Performance to Business Values:**
+Present the business result obtained by the model.
 
-**Step 10. Deploy Modelo to Production:**
+**Step 10. Deploy Model to Production:**
+I deployed the model at Render (free cloud environment) and make it acessible through a Google Spreadsheet, so it can easily improve decisions of business team.
 
 
 # 5. Top 3 Data Insights

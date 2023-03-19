@@ -125,7 +125,31 @@ All hypotheses were validated not only with visualizations and basic metrics suc
 
 # 6. Machine Learning Model Applied
 
-# 7. Machine Learning Modelo Performance
+I applied three machine learning models in this project: Random Forest Logistic Regression and XGBoost Classifier. An resumed description of each one is present below:
+
+<details>
+  <summary>Random Forest</summary>
+  
+Random Forest is a type of ensemble learning algorithm that creates multiple decision trees and aggregates the output to make a final prediction. Each decision tree is built using a random subset of the training data and features, which reduces the risk of overfitting and increases the accuracy of the predictions. The algorithm is effective in handling high dimensional datasets and non-linear relationships between variables.
+
+</details>
+
+<details>
+  <summary>Logistic Regression</summary>
+  
+Logistic Regression is a statistical algorithm that is used to predict a binary outcome, such as whether a customer will buy a product or not. The algorithm creates a linear regression equation that models the relationship between the dependent variable and one or more independent variables. The output of the equation is then transformed using a logistic function to produce a probability value, which is used to make the final prediction. The algorithm is simple to implement and interpret, and can handle both categorical and continuous variables.
+
+</details>
+
+<details>
+  <summary>XGBoost Classifier</summary>
+  
+XGBoost Classifier is a gradient boosting algorithm that creates a set of decision trees in a sequential manner, where each tree tries to correct the errors of the previous tree. The algorithm applies gradient descent to minimize a loss function that measures the difference between the predicted and actual values. XGBoost Classifier is known for its high accuracy and speed, and is commonly used in machine learning competitions. It also supports a variety of objective functions and can handle automaticaly with missing data and imbalanced classes.
+
+</details>
+
+
+# 7. Machine Learning Model Perfomance
 
 # 8. Business Results
 

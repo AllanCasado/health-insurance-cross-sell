@@ -174,6 +174,27 @@ This curve is quite useful for selling the idea to the business people. It answe
 
 # 8. Business Results
 
+#### 8.1 Main insights on the most relevant attributes of customers interest in purchasing auto insurance
+
+* Customers with older cars show MORE interest than those with newer cars. (H7)
+* The length of time the customer is associated with the company does not influence interest in car insurance. (H10)
+* The audience between 20 and 30 years old is the one that shows the least interest. (H5)
+* The group between 40 and 49 years old is the most interested. (H5)
+* Customers who have already had their car damaged in the past have more interest. (H8)
+
+#### 8.2 What percentage of customers interested in purchasing auto insurance will the sales team be able to reach by making 20.000 calls?
+
+If the sales team make 20.000 calls, they will reach 69% of customers interested in purchasing vehicle insurance. Calling 20.000 based on our model will be 2.61x better than using random choice.
+
+#### 8.3 If the sales team's capacity increases to 40.000 calls, what percentage of customers interested in purchasing auto insurance will the sales team be able to contact?
+
+If the sales team make 40.000 calls, they will reach 99% of customers interested in purchasing vehicle insurance. Calling 40.000 based on our model will be 1.88x better than using random choice.
+
+#### 8.4 How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?
+
+To contact 80% of customers interested in purchasing vehicle insurance, the sales team need to make 24408 calls. Calling 24408 customers based on our model will be 2.50x better than using random choice.
+
+
 # 9. Conclusions
 
 # 10. Lessons Learned

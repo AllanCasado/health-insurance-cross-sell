@@ -8,13 +8,13 @@
 
 # 1. Business Problem.
 
-*Disclaimer: the business problem presented below is fictcious as well as Life Safety company. The dataset was collected from Kaggle's competition [Health Insurance Cross Sell](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).*
+*Disclaimer: the business problem presented below is fictcious as well as Casado Insurance company. The dataset was collected from Kaggle's competition [Health Insurance Cross Sell](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).*
   
-Life Safety is a B2C company whose core business is offering health insurance to individuals. Now it plans to implement a cross sell strategy focused on distribuiting car insurance to its customer base. 
+Casado Insurance is a B2C company whose core business is offering health insurance to individuals. Now it plans to implement a cross sell strategy focused on distribuiting car insurance to its customer base. 
   
 Given that the budget for the sales is limited, it is necessary to prioritize those customers who are more likely to purchase the product. Then, a Data Scientist was consulted to build **a machine learning model to order the customer base by propensity score**. 
   
-To deal with this *learn to Rank* machine learning challenge, Life Safety undertook a survey with 381000 customers, and they answered whether they were interested or not in insurance car offer. The train dataset was produced with the customers attributes and theirs responses to this survey.
+To deal with this *learn to Rank* machine learning challenge, Casado Insurance undertook a survey with 381000 customers, and they answered whether they were interested or not in insurance car offer. The train dataset was produced with the customers attributes and theirs responses to this survey.
  
 Two **data products** was developed to assist business team:
    
@@ -211,6 +211,21 @@ This process is describe in the following demonstration:
 
 # 10. Conclusions
 
-# 11. Lessons Learned
+With the data solution delivered, Casado Insurance now has a competitive advantage over its competitors, reducing the cost of customer acquisition and increasing its revenue by being able to recommend products more accurately.
 
-# 12. Next Steps to Improve
+The implementation via Google Sheets makes it easier for the business team to access the model, allowing for immediate use in making business decisions.
+
+Furthermore, because the solution has been implemented in this way, it is possible to use it to simulate customer profiles, a functionality that is of great value to the company.
+
+Finally, it should be noted that the use of this type of data product further influences the company's progress towards becoming increasingly data-driven.
+
+
+# 11. Next Steps to Improve
+
+* Try to create new features in feature engineering
+* Formulate more hypothesis
+* Try more machine learning models
+* Test new hyperparameters
+* Improve the Google Spreadsheet, for example, adding the possibility to get the prediction for selected rows
+* Uses Boruta algorithm to feature selection
+* Create interactive visualizations using Plotly

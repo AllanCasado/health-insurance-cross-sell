@@ -105,19 +105,23 @@ I deployed the model at Render (free cloud environment) and make it acessible th
 
 # 5. Top 3 Data Insights
 
-**Hypothesis 05: The customers between 20 and 30 years old shows more interest than other age groups.** <br> <br>
-**False.** The customers between 20 and 30 years old is the one that shows less interest. The group between 40 and 49 is the most interested.
+**Hypothesis 05: The customers between 20 and 30 years old shows more interest than other age groups.** <br>
+False. The customers between 20 and 30 years old is the one that shows less interest. The group between 40 and 49 is the most interested.
 
 ![Interest proportion vs Age](imgs/hypothesis_05.png)
 
+**Hypothesis 07: Customers with older cars show less interest than those with newer cars.** <br>
+False. Customers with older cars show MORE interest than those with newer cars.
 
-**Hypothesis 02:**
+![Interest proportion vs Vehicle age](imgs/hypothesis_07.png)
 
-**True/False.**
+**Hypothesis 03: Customers who pay a higher annual premium demonstrate less interest in car insurance.** <br>
+False. There is no relationship between interest in car insurance and the amount paid in annual premium.
 
-**Hypothesis 03:**
+![Interest proportion vs Annual premium](imgs/hypothesis_09.png)
 
-**True/False.**
+All hypotheses were validated not only with visualizations and basic metrics such as the mean, but also with hypothesis testing, using some of the most well-known tests such as the t-test, chi-squared test, and ANOVA. The use of these tests allowed for a more rigorous validation of the hypotheses, providing more confidence in the results and conclusions obtained. 
+
 
 # 6. Machine Learning Model Applied
 

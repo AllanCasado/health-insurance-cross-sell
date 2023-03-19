@@ -60,7 +60,11 @@ In addition, three main questions need to be answered:
 
 # 4. Solution Strategy
 
-This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) method adapted for data science processes, known as CRIS-DS. The proposed general solution is as follows:
+This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) method adapted for data science processes, known as CRIS-DS. 
+
+<img src='https://miro.medium.com/v2/resize:fit:1184/1*hilp0xizP_43qVQ7wofz-w.jpeg' />
+
+The proposed general solution is as follows:
 
 * Study the data to find important insights for both the company and model development.
 * Train a machine learning algorithm to rank potential customers based on the training dataset.

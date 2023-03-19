@@ -195,8 +195,22 @@ If the sales team make 40.000 calls, they will reach 99% of customers interested
 To contact 80% of customers interested in purchasing vehicle insurance, the sales team need to make 24408 calls. Calling 24408 customers based on our model will be 2.50x better than using random choice.
 
 
-# 9. Conclusions
+# 9. Final deliverable
 
-# 10. Lessons Learned
+In addition to the questions answered on the previous section (8.0) and the insights generated during the exploratory data analysis (EDA), Google Spreadsheet for automatic predictions of the customers propensity score for a given dataset. To use this spreadsheet, basically two steps are needed:
 
-# 11. Next Steps to Improve
+1. Input the data in the spreadsheet, which can also be done importing an CSV file.
+2. Click the button "Health Insurance Prediction" --> "Get Prediction"
+
+As a result, the last column of the table will be filled with the propensity score for each client.
+
+This process is describe in the following demonstration:
+
+![Google Spreadsheet Access](imgs/result.gif)
+
+
+# 10. Conclusions
+
+# 11. Lessons Learned
+
+# 12. Next Steps to Improve
